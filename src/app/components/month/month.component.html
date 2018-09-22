@@ -1,0 +1,30 @@
+
+<div style="margin-left: .75rem;">
+  <h6>{{ month.date }}</h6>
+  <div class="list-group m-text margin-item">
+    <a class="list-group-item list-group-item-action flex-column align-items-start
+    m-background right-radius-0"
+        *ngFor="let mock of monthData; let i = index" (click)="selectItem(i)"
+        [ngClass]="{ 'm-right-border': selected == i }">
+
+        <div class="row">
+
+          <div class="col-md-12 col-sm-12 col-10">
+            <small>{{ mock.date }}</small>
+            <p class="mb-1 indigo-text"><span class="bullet"
+              [tooltip]="contentTooltip"
+              placement="bottom"
+              [ngClass]="{ 'orange': mock.color == 'orange',
+                            'green': mock.color == 'green',
+                            'yellow': mock.color == 'yellow' }">•</span> {{ mock.descp }}</p>
+          </div>
+
+          <div class="col-2 d-flex p-2 d-none d-block d-sm-none">
+            <img src="../../../assets/img/chevron-right.png" style="margin-left: 1.5rem;">
+          </div>
+
+        </div>
+    </a>
+  </div>
+
+</div>

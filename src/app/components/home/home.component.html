@@ -1,0 +1,42 @@
+<div>
+
+  <app-tabs-header *ngIf="this.showLeft || !isMobile()"></app-tabs-header>
+
+
+  <div class="container top-3 m-main">
+
+    <div class="row">
+
+      <div class="col-md-3 col-xs-12 padding-0 full-height" *ngIf="this.showLeft">
+        <app-left (notifyShow)="showPanel( $event )"></app-left>
+      </div>
+
+      <div class="col-md-9 col-xs-12 padding-0" [ngClass]="{'right-top': !isMobile()}"   *ngIf="this.showRight">
+
+        <div class="row right-nav d-md-none"  *ngIf="isMobile()" (click)="notifyShowPanel()">
+
+          <div class="col-12" style="color: #fff;">
+            <span><img src="../../../assets/img/arrow-left.png"></span>
+            <small style="padding-left: .4rem;">RETOUR</small>
+          </div>
+
+        </div>
+
+        <app-right></app-right>
+
+        <div class="row justify-content-center d-md-none bottom-right-nav">
+
+          <button type="button" class="btn btn-oval">Repondre</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>

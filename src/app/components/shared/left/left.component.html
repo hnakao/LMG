@@ -1,0 +1,6 @@
+
+<div *ngFor="let mock of mockDate" >
+
+  <app-month [month] = "mock" (notifySelected) = "unselectOthers($event)"></app-month>
+
+</div>

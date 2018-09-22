@@ -1,0 +1,73 @@
+
+<div class="m-header">
+  <div class="row container">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-10">
+        <h2 style="color:#fff;">Contact</h2>
+    </div>
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-10">
+        <p style="color:#fff;">Une question? Un besoin? Gerez ici vos demandes</p>
+    </div>
+
+  </div>
+</div>
+
+        <ul class="nav nav-tabs nav-justified tab-header" id="myTab" role="tablist">
+          <div class="col-md-2 invisible"></div>
+
+            <li class="nav-item">
+              <a class="nav-link active purple" id="home-tab" role="tab"
+              aria-controls="home" aria-selected="true" style="background-color: #F5F4F7;">
+              <img src="../../../../assets/img/10.png" />
+              Précisez votre demande</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active purple" id="other-tab" data-toggle="tab" href="#other" role="tab"
+              aria-controls="other" aria-selected="false">
+              <img src="../../../../assets/img/13.png" />
+              Suivez vos demandes</a>
+            </li>
+
+          <div class="col-md-2 invisible"></div>
+        </ul>
+
+        <div class="tab-content" style="background-color: #fff;" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row justify-content-start" [ngClass]="{ 'justify-content-between': innerWidth < 400 }" >
+
+              <div class="col-md-2 warm-grey d-none d-sm-block"
+              [ngStyle]="{'margin-right':innerWidth > 900 ? '-5em' : '0em' }">
+                  Filtrer par
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-6"
+              [ngStyle]="{'margin-right':innerWidth > 1000 ? '-3em' : '0em' }">
+                  <button type="button" class="btn purple btn-tab">Mois</button>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-6">
+                  <button type="button" class="btn purple btn-tab" style="margin-left: -60px;">
+                    Type de demande</button>
+              </div>
+
+              <div class="col-md-4 invisible"></div>
+
+            </div>
+
+
+          </div>
+          <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="other-tab">
+
+
+          </div>
+        </div>
+
+
+
+

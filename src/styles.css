@@ -1,1 +1,318 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #F5F4F7 !important;
+}
+
+.m-header {
+  height: 140px;
+  padding-top: 40px;
+  background-image: linear-gradient(to left, #ae0a67, #412761);
+  /*background-image: linear-gradient(to right, #ae0a67, var(--grape));*/
+}
+
+.m-main {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.tab-header {
+  background-image: linear-gradient(to left, #ae0a67, #412761);
+}
+
+#myTab .nav-link.active {
+  color: #412761 !important;
+}
+
+#myTab a:hover {
+  color: #412761 !important;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.right-top {
+  margin-top: 2.2em;
+}
+
+.right-nav {
+  background: #412761;
+  height: 2.4rem;
+  width: 100%;
+  padding-top: .4rem;
+  margin-left: 0rem;
+}
+
+#myTabContent {
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  padding-left: 5.5em;
+}
+
+.btn-tab {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+.top-3 {
+  margin-top: 3%;
+}
+
+.inverse-pad {
+  padding-left: -15px;
+  padding-right: -15px;
+}
+
+.m-text {
+  font-size: 0.7rem !important;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.indigo-text {
+  color: #412761;
+  font-weight: bold;
+}
+
+.indigo {
+  background-color: #412761;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: .6rem;
+  margin: 4px 2px;
+  border-radius: 1em !important
+}
+
+.blue {
+  background-color: #74abd3;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: .6rem;
+  margin: 4px 2px;
+  border-radius: 1em !important
+}
+
+.bullet {
+  display: initial;
+  margin-left: -1em;
+  font-size: 1em;
+  padding-right: 0.3em;
+}
+
+.orange {
+  color: #cd5a19;
+}
+
+.green {
+  color: #6da89a;
+}
+
+.yellow {
+  color: #efc421;
+}
+
+.purple {
+  color: #412761;
+}
+
+.warm-grey {
+  color: #828282;
+}
+
+.margin-item {
+  margin-top: 1.4em;
+  margin-bottom: 1.8em;
+}
+
+.m-background {
+  background-color: #F5F4F7 !important;
+}
+
+a:active {
+  background-color: #FFFFFF !important;
+}
+
+.m-border {
+  padding-left: 2em;
+}
+
+.padding-0 {
+  padding-right: 0% !important;
+  padding-left: 0% !important
+}
+
+.right-radius-0 {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.section {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 4.5em;
+}
+
+.right-element {
+  padding-top: 2em;
+  border: 1px solid rgba(0,0,0,.125);
+  background-color: #FFFFFF;
+}
+
+.m-border-line {
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.m-right-border {
+  border-right: 0.3em solid #412761;
+}
+
+.right-top p {
+  margin-bottom: 0%;
+}
+
+.vl {
+  border-left: 1px solid rgba(0,0,0,.125);
+  height: 3em;
+}
+
+.btn-oval {
+  background-color: #412761;
+  color: #fff;
+  border: none;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2em !important;
+}
+
+.btn-oval-white {
+  background-color: #fff;
+  color: #412761;
+  border: 1px solid #412761;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2em !important;
+}
+
+.background-white {
+  background: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bottom-right-nav {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: #fff;
+}
+
+.chevron-right {
+  background-image: url("./assets/img/chevron-right.png");
+}
+
+.tooltip-inner {
+  font-size: .6rem;
+  color: #cd5a19;
+  text-align:center;
+  background-color:#fff;
+}
+
+
+/* Section */
+
+.chat-section ul li{
+  list-style: none;
+  position: relative;
+}
+
+.chat-section{
+  height:300px;
+}
+
+.chat-section ul{
+  padding: 0px;
+}
+
+.chat-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.left-chat, .right-chat {
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+.left-chat .avatar,.right-chat .avatar{
+  width:50px;
+  height:50px;
+  float:left;
+  margin:0px 10px;
+}
+
+.right-chat .avatar{
+  float:right;
+}
+
+.left-chat,.right-chat{
+  overflow: hidden;
+}
+.left-chat p,.right-chat p{
+  padding: 10px;
+  border-radius: 5px;
+  float:left;
+  width:60%;
+  margin-bottom:20px;
+}
+.left-chat span,.right-chat span{
+  position: absolute;
+  left:70px;
+  top:60px;
+  color:#B7BCC5;
+}
+.right-chat span{
+  left:45px;
+}
+.right-chat p{
+  float:right;
+  background-color: #FFFFFF;
+}
+
+.right-chat:before{
+  content: " ";
+  position:absolute;
+  top:0px;
+  right:55px;
+  bottom:150px;
+  border:15px solid transparent;
+  border-top-color:#fff;
+}
+
+@media screen and (max-width: 600px) {
+  #myTabContent {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .btn-tab {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
+}

@@ -1,0 +1,76 @@
+
+
+<div class="chat-section">
+  <ul>
+    <li>
+      <span style="margin-left: 4.3em;"><small>{{ message[0].timestamp | date : 'd MMM y' }}</small></span>
+      <div class="row justify-content-start">
+
+        <div class="col-md-2 col-3">
+            <img class="avatar" src="../../../assets/img/05.png">
+        </div>
+
+        <div class="left-chat m-border-line col-md-8 col-9" style="margin-bottom: 1em;">
+
+            <div class="chat-header">
+              <div class="row justify-content-between">
+                  <div class="indigo-text">En atente d'elements</div>
+                  <div><small>CANAL</small> <strong> Internet</strong></div>
+              </div>
+            </div>
+
+            <div class="p-3">
+              <button type="button" class="btn btn-oval-white">Voir le message</button>
+            </div>
+        </div>
+
+        <div class="col-md-2 invisible d-none d-sm-block"></div>
+
+    </div>
+
+  </li>
+
+
+    <li>
+
+      <div class="row justify-content-start" id="msg2">
+          <span style="margin-left: 7.5em;"><small>{{ message[1].timestamp | date : 'd MMM y' }}</small></span>
+      </div>
+
+      <div class="row justify-content-end">
+
+          <div class="col-md-2 invisible d-none d-sm-block"></div>
+
+          <div class="right-chat m-border-line col-md-8 col-9">
+
+              <div class="chat-header">
+                  <div class="row d-flex justify-content-between">
+                      <div class="indigo-text">Transmis</div>
+                      <div><small>CANAL</small> <strong> Internet</strong></div>
+                  </div>
+              </div>
+
+              <div class="p-3">
+                  <div class="d-inline indigo p-2 text-white">PDF</div>
+                  <div class="d-inline p-2">justificatif.pdf</div>
+                  <div class="d-inline p-2"><img src="../../../assets/img/eye.png"></div>
+
+                  <div class="d-inline blue p-2 text-white" style="margin-left: 4em">ZIP</div>
+                  <div class="d-inline p-2">lorem.zip</div>
+                  <div class="d-inline p-2"><img src="../../../assets/img/eye.png"></div>
+              </div>
+          </div>
+
+          <div class="col-md-2 col-3" style="margin-right: -2em">
+              <img class="avatar" src="../../../assets/img/01.png">
+          </div>
+
+
+      </div>
+
+    </li>
+  </ul>
+
+
+
+</div>
